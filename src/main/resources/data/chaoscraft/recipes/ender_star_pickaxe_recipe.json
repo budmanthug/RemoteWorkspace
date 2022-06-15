@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "chaoscraft:enderite"
+    },
+    "1": {
+      "item": "chaoscraft:enderite"
+    },
+    "2": {
+      "item": "chaoscraft:enderite"
+    },
+    "3": {
+      "item": "chaoscraft:cobaltium"
+    },
+    "4": {
+      "item": "chaoscraft:enderite_stick"
+    },
+    "5": {
+      "item": "chaoscraft:cobaltium"
+    },
+    "7": {
+      "item": "chaoscraft:enderite_stick"
+    }
+  },
+  "result": {
+    "item": "chaoscraft:ender_star_pickaxe",
+    "count": 1
+  }
+}

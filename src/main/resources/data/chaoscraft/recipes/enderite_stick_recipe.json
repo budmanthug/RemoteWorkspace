@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "chaoscraft:enderite"
+    },
+    "1": {
+      "item": "chaoscraft:enderite"
+    }
+  },
+  "result": {
+    "item": "chaoscraft:enderite_stick",
+    "count": 4
+  }
+}

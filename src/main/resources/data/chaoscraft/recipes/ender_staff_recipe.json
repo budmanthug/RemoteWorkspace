@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "chaoscraft:cobaltium"
+    },
+    "1": {
+      "item": "minecraft:dragon_egg"
+    },
+    "2": {
+      "item": "chaoscraft:cobaltium"
+    },
+    "3": {
+      "item": "chaoscraft:cobaltium"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "chaoscraft:cobaltium"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chaoscraft:ender_staff",
+    "count": 1
+  }
+}

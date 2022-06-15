@@ -1,0 +1,259 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cobaltium",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium"
+    },
+    {
+      "name": "CobaltiumAdvancement",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_advancement"
+    },
+    {
+      "name": "CobaltiumLootTable",
+      "type": "loottable",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_loot_table"
+    },
+    {
+      "name": "EnderStaffRightclicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_staff_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderStaff",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_staff"
+    },
+    {
+      "name": "EnderStaffRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_staff_recipe"
+    },
+    {
+      "name": "Enderite",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite"
+    },
+    {
+      "name": "EnderStarPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_star_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderStarPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_star_pickaxe"
+    },
+    {
+      "name": "EnderiteStick",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_stick"
+    },
+    {
+      "name": "EnderStarPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_star_pickaxe_recipe"
+    },
+    {
+      "name": "EnderiteStickRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_stick_recipe"
+    },
+    {
+      "name": "EnderLightSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_light_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderLightSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_light_sword"
+    },
+    {
+      "name": "EnderLightSwordRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_light_sword_recipe"
+    },
+    {
+      "name": "EarthGuardian",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_guardian"
+    },
+    {
+      "name": "DirtTotem",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_totem"
+    },
+    {
+      "name": "DirtTotemRightclicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_totem_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.cobaltium_advancement.title": "Not a simp",
+      "item.chaoscraft.dirt_totem": "Dirt Totem",
+      "item.chaoscraft.enderite": "Enderite",
+      "item.chaoscraft.enderite_stick": "Enderite Stick",
+      "item.chaoscraft.ender_light_sword": "Ender Light Sword",
+      "item.chaoscraft.cobaltium": "Cobaltium",
+      "entity.chaoscraft.earth_guardian": "Earth Guardian",
+      "item.chaoscraft.ender_star_pickaxe": "Ender Star Pickaxe",
+      "item.chaoscraft.ender_staff": "Ender Staff",
+      "advancements.cobaltium_advancement.descr": "You just used a Cobaltium",
+      "item.chaoscraft.earth_guardian_spawn_egg": "Earth Guardian Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chaoscraft",
+    "modName": "ChaosCraft",
+    "version": "1.0.0",
+    "author": "budma, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.chaoscraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

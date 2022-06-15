@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "chaoscraft:cobaltium"
+    },
+    "title": {
+      "translate": "advancements.cobaltium_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.cobaltium_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cobaltium_advancement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "chaoscraft:cobaltium"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
